@@ -1,7 +1,14 @@
 package Lanche;
 
 public class Lasanha extends Massa {
+
 	private String molho;
+
+	@Override
+	public void molho(String molho) {
+		this.setMolho(molho);
+
+	}
 
 	public String getMolho() {
 		return molho;
